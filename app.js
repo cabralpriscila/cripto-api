@@ -21,6 +21,7 @@ fetch('https://cors-anywhere.herokuapp.com/pro-api.coinmarketcap.com/v1/cryptocu
                 ${api.data[i].name}
               </span>
               <p>${api.data[i].symbol}</p>
+              <span>${api.data[i].first_historical_data}</span>
             </div>
           </div>
         </div>
